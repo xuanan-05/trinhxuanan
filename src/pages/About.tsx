@@ -1,0 +1,164 @@
+import { Layout } from "@/components/layout/Layout";
+import { ScrollReveal } from "@/components/ui/ScrollReveal";
+import { User, Target, BookOpen, Lightbulb } from "lucide-react";
+
+export default function About() {
+  return (
+    <Layout>
+      {/* Hero Section */}
+      <section className="py-16 md:py-24">
+        <div className="container mx-auto px-4">
+          <ScrollReveal>
+            <div className="text-center mb-12">
+              <h1 className="text-4xl md:text-5xl font-display font-bold mb-4">
+                Giới thiệu <span className="gradient-text">Bản thân</span>
+              </h1>
+              <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+                Chào mừng bạn đến với portfolio của tôi - nơi tôi chia sẻ hành trình học tập và phát triển kỹ năng số
+              </p>
+            </div>
+          </ScrollReveal>
+
+          {/* Avatar Placeholder */}
+          <ScrollReveal delay={100}>
+            <div className="flex justify-center mb-12">
+              <div className="w-40 h-40 md:w-48 md:h-48 rounded-full gradient-bg p-1">
+                <div className="w-full h-full rounded-full bg-card flex items-center justify-center">
+                  <User className="w-20 h-20 text-muted-foreground" />
+                </div>
+              </div>
+            </div>
+          </ScrollReveal>
+        </div>
+      </section>
+
+      {/* Personal Info */}
+      <section className="py-12 bg-muted/30">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <ScrollReveal>
+              <div className="bg-card rounded-2xl p-8 shadow-sm card-hover">
+                <h2 className="text-2xl font-display font-semibold mb-6 flex items-center gap-3">
+                  <User className="w-6 h-6 text-primary" />
+                  Thông tin cá nhân
+                </h2>
+                <div className="space-y-4 text-foreground">
+                  <div className="grid md:grid-cols-2 gap-4">
+                    <div className="p-4 bg-muted/50 rounded-lg">
+                      <p className="text-sm text-muted-foreground mb-1">Họ và tên</p>
+                      <p className="font-medium text-primary">[Điền họ tên của bạn]</p>
+                    </div>
+                    <div className="p-4 bg-muted/50 rounded-lg">
+                      <p className="text-sm text-muted-foreground mb-1">Ngành học</p>
+                      <p className="font-medium">[Điền ngành học của bạn]</p>
+                    </div>
+                  </div>
+                  <div className="p-4 bg-muted/50 rounded-lg">
+                    <p className="text-sm text-muted-foreground mb-1">Sở thích</p>
+                    <p className="font-medium">
+                      [Điền sở thích liên quan học tập, công nghệ, sáng tạo của bạn]
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </ScrollReveal>
+          </div>
+        </div>
+      </section>
+
+      {/* Learning Goals */}
+      <section className="py-12">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <ScrollReveal>
+              <div className="bg-card rounded-2xl p-8 shadow-sm card-hover">
+                <h2 className="text-2xl font-display font-semibold mb-6 flex items-center gap-3">
+                  <Target className="w-6 h-6 text-primary" />
+                  Mục tiêu học tập
+                </h2>
+                <div className="prose prose-lg max-w-none text-foreground">
+                  <p className="text-muted-foreground leading-relaxed">
+                    [Viết về mục tiêu học tập của bạn. Ví dụ:]
+                  </p>
+                  <ul className="mt-4 space-y-3">
+                    <li className="flex items-start gap-3">
+                      <Lightbulb className="w-5 h-5 text-accent mt-1 shrink-0" />
+                      <span>Phát triển kỹ năng số để thích ứng với thời đại công nghệ 4.0</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <Lightbulb className="w-5 h-5 text-accent mt-1 shrink-0" />
+                      <span>Chủ động tiếp cận và ứng dụng AI trong học tập và công việc</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <Lightbulb className="w-5 h-5 text-accent mt-1 shrink-0" />
+                      <span>Rèn luyện tư duy phản biện và khả năng giải quyết vấn đề</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <Lightbulb className="w-5 h-5 text-accent mt-1 shrink-0" />
+                      <span>Xây dựng thói quen học tập suốt đời và cập nhật kiến thức liên tục</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </ScrollReveal>
+          </div>
+        </div>
+      </section>
+
+      {/* Portfolio Goals */}
+      <section className="py-12 bg-muted/30">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <ScrollReveal>
+              <div className="bg-card rounded-2xl p-8 shadow-sm card-hover">
+                <h2 className="text-2xl font-display font-semibold mb-6 flex items-center gap-3">
+                  <BookOpen className="w-6 h-6 text-primary" />
+                  Mục tiêu Portfolio
+                </h2>
+                <div className="space-y-4 text-foreground">
+                  <p className="text-muted-foreground leading-relaxed">
+                    Portfolio này được tạo ra với những mục đích sau:
+                  </p>
+                  <div className="grid gap-4 mt-6">
+                    <div className="p-4 border border-border rounded-lg hover:border-primary transition-colors">
+                      <h3 className="font-semibold text-primary mb-2">📚 Tổng hợp quá trình học tập</h3>
+                      <p className="text-sm text-muted-foreground">
+                        Ghi lại toàn bộ hành trình học tập qua các bài tập và dự án của môn học
+                      </p>
+                    </div>
+                    <div className="p-4 border border-border rounded-lg hover:border-primary transition-colors">
+                      <h3 className="font-semibold text-primary mb-2">💾 Lưu trữ sản phẩm học tập</h3>
+                      <p className="text-sm text-muted-foreground">
+                        Xây dựng kho lưu trữ các minh chứng và sản phẩm đã hoàn thành
+                      </p>
+                    </div>
+                    <div className="p-4 border border-border rounded-lg hover:border-primary transition-colors">
+                      <h3 className="font-semibold text-primary mb-2">📈 Thể hiện sự tiến bộ</h3>
+                      <p className="text-sm text-muted-foreground">
+                        Minh họa rõ ràng sự phát triển và tiến bộ qua từng bài học
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </ScrollReveal>
+          </div>
+        </div>
+      </section>
+
+      {/* Personal Message */}
+      <section className="py-16">
+        <div className="container mx-auto px-4">
+          <ScrollReveal>
+            <div className="max-w-3xl mx-auto text-center">
+              <blockquote className="text-xl md:text-2xl font-display italic text-muted-foreground">
+                "[Viết một câu nói hoặc phương châm học tập của bạn tại đây]"
+              </blockquote>
+              <p className="mt-4 text-primary font-medium">— Tên của bạn</p>
+            </div>
+          </ScrollReveal>
+        </div>
+      </section>
+    </Layout>
+  );
+}
