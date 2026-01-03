@@ -1,5 +1,6 @@
 import { Project } from "@/data/projects";
-import { X, Target, ListChecks, Image, BarChart3, Bot, CheckCircle } from "lucide-react";
+import { X, Target, ListChecks, Image, BarChart3, Bot, CheckCircle, Download } from "lucide-react";
+import { Button } from "@/components/ui/button";
 import { useEffect } from "react";
 
 interface ProjectDetailProps {
@@ -123,9 +124,17 @@ export function ProjectDetail({ project, onClose }: ProjectDetailProps) {
               <p className="text-muted-foreground mb-2">
                 {project.evidence.description}
               </p>
-              <p className="text-sm text-primary font-medium">
+              <p className="text-sm text-primary font-medium mb-4">
                 {project.evidence.placeholder}
               </p>
+              {project.evidence.downloadUrl && (
+                <Button asChild variant="default" className="gap-2">
+                  <a href={project.evidence.downloadUrl} download>
+                    <Download className="w-4 h-4" />
+                    {project.evidence.downloadLabel || "Tải xuống minh chứng"}
+                  </a>
+                </Button>
+              )}
             </div>
           </section>
 

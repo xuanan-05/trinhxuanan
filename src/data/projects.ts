@@ -13,6 +13,8 @@ export interface Project {
   evidence: {
     description: string;
     placeholder: string;
+    downloadUrl?: string;
+    downloadLabel?: string;
   };
   analysis: {
     strengths: string[];
@@ -56,6 +58,8 @@ export const projectsData: Project[] = [
       description: "Báo cáo thực hành thao tác cơ bản với tệp tin kèm ảnh chụp màn hình các bước thực hiện",
       placeholder:
         "[Báo cáo bao gồm 12 ảnh chụp màn hình minh họa từng bước: mở File Explorer, truy cập ổ đĩa, tạo thư mục, tạo file, sao chép, di chuyển, đổi tên, tạo shortcut và xóa tệp]",
+      downloadUrl: "/documents/bai-tap-chuong-1.docx",
+      downloadLabel: "Tải báo cáo Chương 1",
     },
     analysis: {
       strengths: [
@@ -115,6 +119,8 @@ export const projectsData: Project[] = [
       description: "Báo cáo 'Tìm kiếm và đánh giá thông tin học thuật' về tác động của AI trong giáo dục đại học",
       placeholder:
         "[Báo cáo bao gồm: Mục tiêu, Phạm vi và phương pháp tìm kiếm, Kết quả thu thập 12 tài liệu, Bảng đánh giá độ tin cậy theo 4 tiêu chí, và Kết luận về tác động tích cực/tiêu cực của AI]",
+      downloadUrl: "/documents/bai-tap-chuong-2.docx",
+      downloadLabel: "Tải báo cáo Chương 2",
     },
     analysis: {
       strengths: [
@@ -175,6 +181,8 @@ export const projectsData: Project[] = [
       description: "Bài thuyết trình về AI và ứng dụng",
       placeholder:
         "[Chèn link slide hoặc video thuyết trình của bạn tại đây]",
+      downloadUrl: "/documents/bai-tap-chuong-3.docx",
+      downloadLabel: "Tải báo cáo Chương 3",
     },
     analysis: {
       strengths: [
@@ -230,6 +238,8 @@ export const projectsData: Project[] = [
       description: "Sản phẩm làm việc nhóm và báo cáo quy trình",
       placeholder:
         "[Chèn link sản phẩm nhóm hoặc ảnh chụp quá trình làm việc]",
+      downloadUrl: "/documents/bai-tap-chuong-4.docx",
+      downloadLabel: "Tải báo cáo Chương 4",
     },
     analysis: {
       strengths: [
@@ -285,6 +295,8 @@ export const projectsData: Project[] = [
       description: "Sản phẩm sáng tạo số (poster, video, infographic...)",
       placeholder:
         "[Chèn link hoặc ảnh sản phẩm sáng tạo của bạn tại đây]",
+      downloadUrl: "/documents/bai-tap-chuong-5.docx",
+      downloadLabel: "Tải báo cáo Chương 5",
     },
     analysis: {
       strengths: [
@@ -341,6 +353,8 @@ export const projectsData: Project[] = [
       description: "Báo cáo 'Sử dụng Trí tuệ nhân tạo có trách nhiệm trong học thuật' và Infographic hướng dẫn",
       placeholder:
         "[Chèn link báo cáo hoặc ảnh chụp infographic của bạn tại đây]",
+      downloadUrl: "/documents/bai-tap-chuong-6.docx",
+      downloadLabel: "Tải báo cáo Chương 6",
     },
     analysis: {
       strengths: [
