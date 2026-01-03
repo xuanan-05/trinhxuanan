@@ -96,25 +96,26 @@ export default function About() {
                   Mục tiêu học tập
                 </h2>
                 <div className="prose prose-lg max-w-none text-foreground">
-                  <p className="text-muted-foreground leading-relaxed">
-                    [Viết về mục tiêu học tập của bạn. Ví dụ:]
-                  </p>
-                  <ul className="mt-4 space-y-3">
+                  <ul className="space-y-3">
                     <li className="flex items-start gap-3">
                       <Lightbulb className="w-5 h-5 text-accent mt-1 shrink-0" />
-                      <span>Phát triển kỹ năng số để thích ứng với thời đại công nghệ 4.0</span>
+                      <span>Phát triển kỹ năng số để thích ứng với thời đại công nghệ 4.0 và nhu cầu của thị trường lao động</span>
                     </li>
                     <li className="flex items-start gap-3">
                       <Lightbulb className="w-5 h-5 text-accent mt-1 shrink-0" />
-                      <span>Chủ động tiếp cận và ứng dụng AI trong học tập và công việc</span>
+                      <span>Chủ động tiếp cận và ứng dụng AI như ChatGPT để hỗ trợ học tập và nghiên cứu một cách có trách nhiệm</span>
                     </li>
                     <li className="flex items-start gap-3">
                       <Lightbulb className="w-5 h-5 text-accent mt-1 shrink-0" />
-                      <span>Rèn luyện tư duy phản biện và khả năng giải quyết vấn đề</span>
+                      <span>Rèn luyện tư duy phản biện, khả năng đánh giá thông tin và giải quyết vấn đề sáng tạo</span>
                     </li>
                     <li className="flex items-start gap-3">
                       <Lightbulb className="w-5 h-5 text-accent mt-1 shrink-0" />
-                      <span>Xây dựng thói quen học tập suốt đời và cập nhật kiến thức liên tục</span>
+                      <span>Xây dựng thói quen học tập suốt đời và cập nhật kiến thức công nghệ liên tục</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <Lightbulb className="w-5 h-5 text-accent mt-1 shrink-0" />
+                      <span>Đạt điểm Xuất sắc (8.1-10) trong môn Nhập môn Công nghệ số và Ứng dụng Trí tuệ nhân tạo</span>
                     </li>
                   </ul>
                 </div>
@@ -171,7 +172,7 @@ export default function About() {
           <ScrollReveal>
             <div className="max-w-3xl mx-auto text-center">
               <blockquote className="text-xl md:text-2xl font-display italic text-muted-foreground">
-                "[Viết một câu nói hoặc phương châm học tập của bạn tại đây]"
+                "Học không chỉ để biết, mà học để làm được. Công nghệ là công cụ, nhưng tư duy mới là chìa khóa."
               </blockquote>
               <p className="mt-4 text-primary font-medium">— Trịnh Xuân An</p>
             </div>

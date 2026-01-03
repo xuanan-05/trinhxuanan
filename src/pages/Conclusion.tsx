@@ -33,17 +33,18 @@ export default function Conclusion() {
                 </h2>
                 <div className="prose max-w-none text-muted-foreground">
                   <p className="leading-relaxed">
-                    [Viết về trải nghiệm của bạn khi làm Portfolio này. Ví dụ:]
+                    Việc xây dựng Digital Portfolio này là một trải nghiệm hoàn toàn mới mẻ và thú vị đối với tôi. 
+                    Lần đầu tiên, tôi được tự tay thiết kế và tổ chức một website cá nhân để trình bày các sản phẩm học tập của mình.
                   </p>
                   <p className="leading-relaxed mt-4">
-                    Việc xây dựng Digital Portfolio này là một hành trình đầy ý nghĩa đối với tôi. 
-                    Ban đầu, tôi cảm thấy bối rối về cách tổ chức và trình bày các bài tập một cách 
-                    chuyên nghiệp. Tuy nhiên, qua quá trình thực hiện, tôi nhận ra rằng Portfolio 
-                    không chỉ là nơi lưu trữ bài tập mà còn là cơ hội để nhìn lại và đánh giá 
-                    bản thân một cách toàn diện.
+                    Quá trình này giúp tôi nhận ra tầm quan trọng của việc tổ chức thông tin một cách khoa học và trực quan. 
+                    Tôi đã học được cách sắp xếp nội dung, lựa chọn màu sắc phù hợp và tạo ra trải nghiệm người dùng tốt. 
+                    Quan trọng hơn, Portfolio đã trở thành công cụ để tôi tự đánh giá lại toàn bộ hành trình học tập, 
+                    nhìn nhận những điểm mạnh cần phát huy và những điểm yếu cần cải thiện.
                   </p>
-                  <p className="leading-relaxed mt-4 text-primary font-medium">
-                    [Hãy viết lại đoạn này bằng trải nghiệm thực tế của bạn]
+                  <p className="leading-relaxed mt-4">
+                    Tôi đặc biệt ấn tượng với cách công nghệ số giúp việc lưu trữ và chia sẻ kiến thức trở nên dễ dàng hơn bao giờ hết. 
+                    Portfolio không chỉ là bài tập cuối kỳ mà còn là tài sản học thuật mà tôi có thể tiếp tục phát triển trong tương lai.
                   </p>
                 </div>
               </div>
@@ -69,8 +70,9 @@ export default function Conclusion() {
                       Kỹ năng số cơ bản
                     </h3>
                     <p className="text-sm text-muted-foreground">
-                      [Viết về kỹ năng số quan trọng nhất bạn đã học được - ví dụ: tìm kiếm thông tin, 
-                      đánh giá nguồn, sử dụng công cụ số...]
+                      Tôi đã thành thạo các thao tác quản lý tệp tin như tạo, đổi tên, di chuyển và sắp xếp thư mục một cách khoa học. 
+                      Đặc biệt, kỹ năng tìm kiếm thông tin học thuật trên Google Scholar và đánh giá độ tin cậy nguồn thông tin 
+                      đã giúp tôi tiếp cận tài liệu chất lượng cao hơn cho việc học tập.
                     </p>
                   </div>
                   <div className="p-4 border border-border rounded-lg hover:border-primary transition-colors">
@@ -79,8 +81,9 @@ export default function Conclusion() {
                       Hiểu biết về AI
                     </h3>
                     <p className="text-sm text-muted-foreground">
-                      [Viết về những gì bạn đã học được về AI - nguyên lý hoạt động, ứng dụng, 
-                      cách sử dụng có trách nhiệm...]
+                      Tôi đã hiểu rõ cách AI hoạt động dựa trên mô hình ngôn ngữ lớn và học máy. 
+                      Quan trọng hơn, tôi biết cách viết prompt hiệu quả để khai thác tối đa khả năng của ChatGPT 
+                      trong việc hỗ trợ học tập mà vẫn đảm bảo sử dụng có trách nhiệm và trích dẫn đúng nguồn.
                     </p>
                   </div>
                   <div className="p-4 border border-border rounded-lg hover:border-primary transition-colors">
@@ -89,8 +92,9 @@ export default function Conclusion() {
                       Liêm chính học thuật
                     </h3>
                     <p className="text-sm text-muted-foreground">
-                      [Viết về tầm quan trọng của liêm chính học thuật và cách bạn áp dụng 
-                      trong học tập...]
+                      Tôi nhận thức sâu sắc về tầm quan trọng của liêm chính học thuật trong môi trường đại học. 
+                      Mọi sản phẩm học tập đều được tôi tự thực hiện, trích dẫn nguồn đầy đủ và minh bạch về việc sử dụng AI. 
+                      Đây không chỉ là quy định mà còn là nền tảng cho việc học tập thực chất.
                     </p>
                   </div>
                   <div className="p-4 border border-border rounded-lg hover:border-primary transition-colors">
@@ -99,8 +103,9 @@ export default function Conclusion() {
                       Làm việc nhóm và giao tiếp số
                     </h3>
                     <p className="text-sm text-muted-foreground">
-                      [Viết về kỹ năng giao tiếp và hợp tác trong môi trường số bạn đã 
-                      phát triển...]
+                      Qua bài tập hợp tác trực tuyến, tôi đã rèn luyện kỹ năng phối hợp với các thành viên qua các nền tảng số. 
+                      Tôi biết cách phân chia công việc, giao tiếp hiệu quả qua các công cụ như Google Docs 
+                      và quản lý tiến độ dự án nhóm một cách chuyên nghiệp.
                     </p>
                   </div>
                 </div>
@@ -126,15 +131,15 @@ export default function Conclusion() {
                     <ul className="space-y-2">
                       <li className="flex items-start gap-2">
                         <span className="text-destructive">•</span>
-                        <span>[Viết khó khăn 1 - ví dụ: Quản lý thời gian giữa nhiều bài tập]</span>
+                        <span>Quản lý thời gian giữa nhiều bài tập và deadline của các môn học khác</span>
                       </li>
                       <li className="flex items-start gap-2">
                         <span className="text-destructive">•</span>
-                        <span>[Viết khó khăn 2 - ví dụ: Làm quen với các công cụ mới]</span>
+                        <span>Làm quen với nhiều công cụ số mới như Canva, Google Docs và các nền tảng AI</span>
                       </li>
                       <li className="flex items-start gap-2">
                         <span className="text-destructive">•</span>
-                        <span>[Viết khó khăn 3 - ví dụ: Phân biệt thông tin đáng tin cậy]</span>
+                        <span>Phân biệt giữa thông tin học thuật đáng tin cậy và các nguồn thiếu uy tín trên Internet</span>
                       </li>
                     </ul>
                   </div>
@@ -143,15 +148,15 @@ export default function Conclusion() {
                     <ul className="space-y-2">
                       <li className="flex items-start gap-2">
                         <span className="text-accent">→</span>
-                        <span>[Viết cách bạn vượt qua - ví dụ: Lập kế hoạch chi tiết và ưu tiên công việc]</span>
+                        <span>Lập kế hoạch học tập chi tiết theo tuần và ưu tiên hoàn thành các bài tập quan trọng trước</span>
                       </li>
                       <li className="flex items-start gap-2">
                         <span className="text-accent">→</span>
-                        <span>[Ví dụ: Dành thời gian học hướng dẫn và thực hành từng bước]</span>
+                        <span>Dành thời gian xem hướng dẫn sử dụng, thực hành từng bước và không ngại hỏi khi gặp khó khăn</span>
                       </li>
                       <li className="flex items-start gap-2">
                         <span className="text-accent">→</span>
-                        <span>[Ví dụ: Áp dụng tiêu chí đánh giá nguồn đã học trong chương 2]</span>
+                        <span>Áp dụng tiêu chí CRAAP đã học trong Chương 2 để đánh giá và chọn lọc nguồn thông tin</span>
                       </li>
                     </ul>
                   </div>
@@ -173,17 +178,17 @@ export default function Conclusion() {
                   Điều tôi tự hào nhất
                 </h2>
                 <div className="space-y-4">
-                  <p className="leading-relaxed opacity-95">
-                    [Viết về điều bạn tự hào nhất trong Portfolio này. Ví dụ:]
-                  </p>
                   <p className="leading-relaxed text-lg">
-                    Điều tôi tự hào nhất là sự tiến bộ của bản thân từ khi bắt đầu đến khi 
-                    hoàn thành môn học. Từ một sinh viên chưa biết nhiều về công nghệ số, 
-                    giờ đây tôi đã có thể tự tin sử dụng các công cụ số, hiểu về AI và 
-                    quan trọng nhất là biết cách học tập có trách nhiệm.
+                    Điều tôi tự hào nhất là sự tiến bộ vượt bậc của bản thân trong suốt học kỳ. 
+                    Từ một sinh viên mới bước vào đại học, chưa có nhiều kinh nghiệm với công nghệ số, 
+                    giờ đây tôi đã có thể tự tin xây dựng một website portfolio hoàn chỉnh, 
+                    sử dụng AI một cách hiệu quả và có trách nhiệm.
                   </p>
-                  <p className="text-sm opacity-80 mt-4">
-                    [Hãy viết lại đoạn này bằng cảm nhận thực tế của bạn]
+                  <p className="leading-relaxed opacity-95">
+                    Tôi đặc biệt tự hào về việc hoàn thành đầy đủ 6 bài tập thực hành với chất lượng cao, 
+                    mỗi bài đều thể hiện sự nỗ lực và tiến bộ so với bài trước. 
+                    Portfolio này không chỉ là minh chứng cho kiến thức đã học mà còn là động lực 
+                    để tôi tiếp tục phát triển kỹ năng số trong tương lai.
                   </p>
                 </div>
               </div>
@@ -208,7 +213,7 @@ export default function Conclusion() {
                   Tôi cam kết tuân thủ liêm chính học thuật trong suốt quá trình học tập.
                 </p>
                 <p className="mt-6 text-primary font-semibold">
-                  — [Họ và tên của bạn]
+                  — Trịnh Xuân An
                 </p>
                 <p className="text-sm text-muted-foreground">
                   Sinh viên môn Nhập môn Công nghệ số và Ứng dụng Trí tuệ nhân tạo
