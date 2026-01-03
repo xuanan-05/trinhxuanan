@@ -26,10 +26,9 @@ export function Reflection() {
                 Thay đổi trong cách học
               </h3>
               <p className="text-muted-foreground text-sm leading-relaxed">
-                [Viết về những thay đổi lớn nhất trong cách học của bạn. Ví dụ:
-                Tôi đã chuyển từ việc học thụ động sang chủ động tìm tòi và
-                thực hành. Tôi biết cách sử dụng công nghệ như một công cụ hỗ
-                trợ hiệu quả...]
+                Tôi đã chuyển từ việc học thụ động sang chủ động tìm tòi và thực hành. 
+                Thay vì chỉ đọc sách và ghi chép, giờ đây tôi biết cách tìm kiếm tài liệu học thuật trên Internet, 
+                đánh giá độ tin cậy của nguồn thông tin và sử dụng công nghệ số như một công cụ hỗ trợ hiệu quả cho việc học tập.
               </p>
             </div>
           </ScrollReveal>
@@ -43,10 +42,9 @@ export function Reflection() {
                 Kỹ năng số tiến bộ nhất
               </h3>
               <p className="text-muted-foreground text-sm leading-relaxed">
-                [Viết về kỹ năng số mà bạn tiến bộ rõ nhất. Ví dụ: Kỹ năng tìm
-                kiếm và đánh giá thông tin đã được cải thiện đáng kể. Tôi có
-                thể phân biệt được nguồn tin cậy và biết cách trích dẫn đúng
-                chuẩn...]
+                Kỹ năng tìm kiếm và đánh giá thông tin học thuật đã được cải thiện đáng kể. 
+                Tôi có thể sử dụng Google Scholar để tìm tài liệu chất lượng cao, áp dụng tiêu chí CRAAP để đánh giá nguồn, 
+                và biết cách trích dẫn đúng chuẩn APA để đảm bảo liêm chính học thuật.
               </p>
             </div>
           </ScrollReveal>
@@ -60,10 +58,9 @@ export function Reflection() {
                 Bài học từ việc sử dụng AI
               </h3>
               <p className="text-muted-foreground text-sm leading-relaxed">
-                [Viết về điều bạn học được khi sử dụng AI đúng cách. Ví dụ: AI
-                là công cụ hỗ trợ tuyệt vời nhưng không thể thay thế việc suy
-                nghĩ độc lập. Tôi học được cách đặt câu hỏi đúng và kiểm tra
-                thông tin từ AI...]
+                AI như ChatGPT là công cụ hỗ trợ tuyệt vời nhưng không thể thay thế việc suy nghĩ độc lập. 
+                Tôi đã học được cách viết prompt hiệu quả để khai thác tối đa khả năng của AI, 
+                đồng thời luôn kiểm tra và chỉnh sửa kết quả theo hiểu biết của bản thân thay vì sao chép nguyên vẹn.
               </p>
             </div>
           </ScrollReveal>
@@ -77,10 +74,9 @@ export function Reflection() {
                 Nhận thức về trách nhiệm học thuật
               </h3>
               <p className="text-muted-foreground text-sm leading-relaxed">
-                [Viết về nhận thức của bạn về trách nhiệm học thuật. Ví dụ: Tôi
-                hiểu rằng liêm chính học thuật không chỉ là quy định mà còn là
-                nền tảng cho việc học thực sự. Việc tự làm và chịu trách nhiệm
-                giúp tôi tiến bộ...]
+                Tôi hiểu rằng liêm chính học thuật không chỉ là quy định của nhà trường mà còn là nền tảng cho việc học tập thực chất. 
+                Việc tự thực hiện bài tập, trích dẫn nguồn đầy đủ và minh bạch về việc sử dụng AI 
+                giúp tôi thực sự tiến bộ và phát triển năng lực của bản thân.
               </p>
             </div>
           </ScrollReveal>
