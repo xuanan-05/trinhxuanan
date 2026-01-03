@@ -46,12 +46,20 @@ export default function About() {
                   <div className="grid md:grid-cols-2 gap-4">
                     <div className="p-4 bg-muted/50 rounded-lg">
                       <p className="text-sm text-muted-foreground mb-1">Họ và tên</p>
-                      <p className="font-medium text-primary">[Điền họ tên của bạn]</p>
+                      <p className="font-medium text-primary">Trịnh Xuân An</p>
                     </div>
                     <div className="p-4 bg-muted/50 rounded-lg">
-                      <p className="text-sm text-muted-foreground mb-1">Ngành học</p>
-                      <p className="font-medium">[Điền ngành học của bạn]</p>
+                      <p className="text-sm text-muted-foreground mb-1">Mã sinh viên</p>
+                      <p className="font-medium">25050027</p>
                     </div>
+                  </div>
+                  <div className="p-4 bg-muted/50 rounded-lg">
+                    <p className="text-sm text-muted-foreground mb-1">Khoa</p>
+                    <p className="font-medium">Khoa Kinh Tế Chính Trị</p>
+                  </div>
+                  <div className="p-4 bg-muted/50 rounded-lg">
+                    <p className="text-sm text-muted-foreground mb-1">Trường</p>
+                    <p className="font-medium">Trường Đại Học Kinh Tế - Đại Học Quốc Gia Hà Nội</p>
                   </div>
                   <div className="p-4 bg-muted/50 rounded-lg">
                     <p className="text-sm text-muted-foreground mb-1">Sở thích</p>
@@ -154,7 +162,7 @@ export default function About() {
               <blockquote className="text-xl md:text-2xl font-display italic text-muted-foreground">
                 "[Viết một câu nói hoặc phương châm học tập của bạn tại đây]"
               </blockquote>
-              <p className="mt-4 text-primary font-medium">— Tên của bạn</p>
+              <p className="mt-4 text-primary font-medium">— Trịnh Xuân An</p>
             </div>
           </ScrollReveal>
         </div>
