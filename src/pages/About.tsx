@@ -62,10 +62,21 @@ export default function About() {
                     <p className="font-medium">Trường Đại Học Kinh Tế - Đại Học Quốc Gia Hà Nội</p>
                   </div>
                   <div className="p-4 bg-muted/50 rounded-lg">
-                    <p className="text-sm text-muted-foreground mb-1">Sở thích</p>
-                    <p className="font-medium">
-                      [Điền sở thích liên quan học tập, công nghệ, sáng tạo của bạn]
-                    </p>
+                    <p className="text-sm text-muted-foreground mb-2">Sở thích</p>
+                    <ul className="space-y-2 font-medium">
+                      <li className="flex items-start gap-2">
+                        <span className="text-primary">•</span>
+                        <span>Khám phá cách tìm kiếm và chọn lọc thông tin học thuật trên Internet</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <span className="text-primary">•</span>
+                        <span>Xây dựng và cá nhân hóa website/portfolio cá nhân</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <span className="text-primary">•</span>
+                        <span>Ứng dụng công nghệ số để quản lý thời gian và công việc hiệu quả hơn</span>
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </div>
